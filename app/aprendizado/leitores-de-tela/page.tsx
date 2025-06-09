@@ -158,14 +158,18 @@ export default function LeitoresDeTela() {
             </TabsContent>
           </Tabs>
 
-          <h2>Como os Leitores de Tela Interpretam o Conteúdo Web</h2>
+          <h2><strong>Como os Leitores de Tela Interpretam o Conteúdo Web?</strong></h2>
+          <br />
           <p>
             Os leitores de tela navegam pelo DOM (Document Object Model) de uma página web, anunciando elementos e seu
             conteúdo. Eles dependem fortemente da estrutura semântica do HTML e de atributos de acessibilidade para
             fornecer uma experiência significativa.
           </p>
 
-          <h3>Processo de Interpretação</h3>
+          <br />
+
+          <h3><strong>Processo de Interpretação</strong></h3>
+          <br />
           <ol>
             <li>
               <strong>Análise do DOM:</strong> O leitor de tela analisa a estrutura do documento HTML
@@ -184,13 +188,21 @@ export default function LeitoresDeTela() {
             </li>
           </ol>
 
-          <h2>Como os Usuários Navegam com Leitores de Tela</h2>
+          <br />
+          <hr />
+          <br />
+
+          <h2><strong>Como os Usuários Navegam com Leitores de Tela?</strong></h2>
+                 
           <p>
             Usuários de leitores de tela desenvolvem técnicas específicas para navegar eficientemente pelo conteúdo
             digital:
           </p>
 
-          <h3>Técnicas de Navegação</h3>
+          <br />
+
+          <h3><strong>Técnicas de Navegação</strong></h3>
+          <br />
           <ul>
             <li>
               <strong>Navegação por cabeçalhos:</strong> Pulando entre elementos h1-h6 para entender a estrutura da
@@ -211,7 +223,10 @@ export default function LeitoresDeTela() {
             </li>
           </ul>
 
-          <h3>Comandos Comuns</h3>
+          <br />
+
+          <h3><strong>Comandos Comuns</strong></h3>
+          <br />
           <p>Cada leitor de tela tem seus próprios comandos, mas alguns padrões são comuns:</p>
 
           <ul>
@@ -235,10 +250,19 @@ export default function LeitoresDeTela() {
             </li>
           </ul>
 
-          <h2>Otimizando seu Site para Leitores de Tela</h2>
+          <br />
+          <hr />
+          <br />
+
+          <h2><strong>Otimizando seu Site para Leitores de Tela</strong></h2>
           <p>Para garantir que seu site funcione bem com leitores de tela, siga estas práticas recomendadas:</p>
 
-          <h3>HTML Semântico</h3>
+          <br />
+
+          <h3><strong>HTML Semântico</strong></h3>
+
+          <br />
+
           <p>Use elementos HTML com significado semântico em vez de divs genéricos:</p>
 
           <br /> 
@@ -329,8 +353,10 @@ export default function LeitoresDeTela() {
 
           <br /> 
 
-          <h2>Testando seu Site com Leitores de Tela</h2>
+          <h2><strong>Testando seu Site com Leitores de Tela</strong></h2>
           <p>É essencial testar seu site com leitores de tela reais para garantir uma boa experiência:</p>
+
+          <br />
 
           <ol>
             <li>

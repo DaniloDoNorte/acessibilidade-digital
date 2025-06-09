@@ -24,7 +24,8 @@ export default function DiretrizesWCAGPage() {
         </div>
 
         <div className="prose prose-green dark:prose-invert max-w-none">
-          <h2>O que são as Diretrizes WCAG?</h2>
+          <h2><strong>O que são as Diretrizes WCAG?</strong></h2>
+          <br />
           <p>
             As Diretrizes de Acessibilidade para Conteúdo Web (WCAG) são desenvolvidas pelo World Wide Web Consortium
             (W3C) através da Iniciativa de Acessibilidade Web (WAI). Estas diretrizes fornecem um padrão internacional
@@ -36,8 +37,11 @@ export default function DiretrizesWCAGPage() {
             adicionando novos critérios para abordar dispositivos móveis, pessoas com baixa visão e pessoas com
             deficiências cognitivas e de aprendizagem.
           </p>
+          
+          <br/>
 
-          <h2>Níveis de Conformidade</h2>
+          <h2><strong>Níveis de Conformidade</strong></h2>
+          <br />
           <p>
             As WCAG 2.1 têm três níveis de conformidade, cada um representando um nível crescente de acessibilidade:
           </p>
@@ -77,19 +81,24 @@ export default function DiretrizesWCAGPage() {
             </Table>
           </div>
 
-          <h2>Os Quatro Princípios das WCAG</h2>
+          <h2><strong>Os Quatro Princípios das WCAG</strong></h2>
+          <br />
           <p>
             As WCAG são organizadas em torno de quatro princípios fundamentais, frequentemente referidos como POUR:
             Perceptível, Operável, Compreensível e Robusto.
           </p>
 
-          <h3>1. Perceptível</h3>
+          <br />
+
+          <h3><strong>1. Perceptível</strong></h3>
           <p>
             As informações e os componentes da interface do usuário devem ser apresentados de maneira que os usuários
             possam percebê-los.
           </p>
 
-          <h4>Principais diretrizes:</h4>
+          <br />
+
+          <h4><strong>Principais diretrizes:</strong></h4>
           <ul>
             <li>
               <strong>1.1 Alternativas em Texto:</strong> Fornecer alternativas em texto para qualquer conteúdo não
@@ -109,10 +118,14 @@ export default function DiretrizesWCAGPage() {
             </li>
           </ul>
 
-          <h3>2. Operável</h3>
+          <br />
+
+          <h3><strong>2. Operável</strong></h3>
           <p>Os componentes de interface de usuário e a navegação devem ser operáveis por todos os usuários.</p>
 
-          <h4>Principais diretrizes:</h4>
+          <br />
+
+          <h4><strong>Principais diretrizes:</strong></h4>
           <ul>
             <li>
               <strong>2.1 Acessível por Teclado:</strong> Tornar todas as funcionalidades disponíveis a partir de um
@@ -135,10 +148,14 @@ export default function DiretrizesWCAGPage() {
             </li>
           </ul>
 
-          <h3>3. Compreensível</h3>
+          <br />
+
+          <h3><strong>3. Compreensível</strong></h3>
           <p>As informações e a operação da interface do usuário devem ser compreensíveis.</p>
 
-          <h4>Principais diretrizes:</h4>
+          <br />
+
+          <h4><strong>Principais diretrizes:</strong></h4>
           <ul>
             <li>
               <strong>3.1 Legível:</strong> Tornar o conteúdo de texto legível e compreensível
@@ -151,13 +168,17 @@ export default function DiretrizesWCAGPage() {
             </li>
           </ul>
 
-          <h3>4. Robusto</h3>
+          <br />
+
+          <h3><strong>4. Robusto</strong></h3>
           <p>
             O conteúdo deve ser robusto o suficiente para que possa ser interpretado de forma confiável por uma ampla
             variedade de agentes de usuário, incluindo tecnologias assistivas.
           </p>
 
-          <h4>Principais diretrizes:</h4>
+          <br />
+
+          <h4><strong>Principais diretrizes:</strong></h4>
           <ul>
             <li>
               <strong>4.1 Compatível:</strong> Maximizar a compatibilidade com agentes de usuário atuais e futuros,
@@ -170,6 +191,8 @@ export default function DiretrizesWCAGPage() {
             Cada diretriz contém critérios de sucesso testáveis. Aqui estão alguns dos critérios mais importantes que
             você deve conhecer:
           </p>
+
+          <br />
 
           <h3>Nível A (Essencial)</h3>
           <ul>
@@ -196,6 +219,8 @@ export default function DiretrizesWCAGPage() {
             </li>
           </ul>
 
+          <br />
+
           <h3>Nível AA (Recomendado)</h3>
           <ul>
             <li>
@@ -219,6 +244,8 @@ export default function DiretrizesWCAGPage() {
             </li>
           </ul>
 
+          <br />
+
           <h3>Nível AAA (Ideal)</h3>
           <ul>
             <li>
@@ -238,8 +265,12 @@ export default function DiretrizesWCAGPage() {
             </li>
           </ul>
 
+          <br />
+
           <h2>Implementando as WCAG em Seu Site</h2>
           <p>Implementar as WCAG pode parecer uma tarefa assustadora, mas você pode abordá-la de forma sistemática:</p>
+
+          <br />
 
           <ol>
             <li>
